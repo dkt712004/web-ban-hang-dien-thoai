@@ -1,0 +1,52 @@
+/* src/index.css */
+
+/* --- QUAN TRỌNG: Import Ant Design CSS --- */
+/* Dòng này phải ở trên cùng để các style của bạn có thể ghi đè khi cần */
+
+
+/* --- CSS Reset và Style cơ bản --- */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f0f2f5; /* Một màu nền nhẹ nhàng cho toàn bộ ứng dụng */
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* --- Tùy chỉnh chung cho Ant Design (Tùy chọn) --- */
+
+/* Làm cho các bảng có viền rõ ràng hơn một chút */
+.ant-table {
+    background: #ffffff;
+    border-radius: 4px;
+}
+
+/* Style chung cho các trang để có padding và nền trắng */
+.page-container {
+    background: #fff;
+    padding: 24px;
+    margin: 0;
+    min-height: calc(100vh - 120px); /* Chiều cao tối thiểu, trừ đi header và footer (ước lượng) */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+}
+
+/* ... các style hiện có ... */
+
+/* Style chung cho các trang để có padding và nền trắng */
+.page-container {
+    background: #fff;
+    padding: 24px;
+    margin: 0;
+    border-radius: 8px; /* Thêm bo góc cho mềm mại */
+    min-height: calc(100vh - 100px); /* Chiều cao tối thiểu, trừ đi header và margin */
+}
